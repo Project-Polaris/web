@@ -1,0 +1,18 @@
+{
+    "name": "polaris/web",
+    "type": "polaris-plugin",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Polaris\\Web\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Polaris\\Web\\WebServiceProvider"
+            ]
+        }
+    }
+}
